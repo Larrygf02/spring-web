@@ -11,7 +11,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">Navbar w/ text</a>
+		<a class="navbar-brand" href="#">Spring Boot</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarText" aria-controls="navbarText"
 			aria-expanded="false" aria-label="Toggle navigation">
@@ -26,8 +26,17 @@
 			</ul>
 		</div>
 	</nav>
-
-	<h1><c:out value="${titulo}"/></h1>
-<h2>${titulo}</h2>
+	<div class="container">	
+		<div class="jumbotron">
+			<h1 class="display-3"><c:out value="${titulo}"/></h1>
+			<h2>${titulo}</h2>
+		</div>
+	</div>
+	<div class="container">
+		<hr>
+		<footer>
+			<p>&copy; Company 2018</p>
+		</footer>
+	</div>
 </body>
 </html>
